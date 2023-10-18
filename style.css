@@ -16,4 +16,111 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+
+  background: linear-gradient(45deg, #821fbb , #d795f8);
 }
+
+.card--container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  background-color: aliceblue;
+  border-radius: 1rem;
+  width: 35rem;
+  height: 15rem;
+}
+
+
+.hero {
+  justify-self: center;
+  align-self: center;
+
+  height: 15rem;
+  width: 13rem;
+  object-fit: cover;
+
+  border-top-left-radius: 1rem;
+  border-bottom-left-radius: 1rem;
+}
+
+.card--container-top {
+  background-color: rgb(255, 254, 252);
+  border-top-right-radius: 1rem;
+
+  height: 8rem;
+
+}
+
+.card--container-top h1{
+  font-size: 1.3em;
+  padding-left: 1rem;
+  padding-top: 1rem;
+}
+
+.card--container-top p {
+  font-size: 0.7em;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 0.12rem;
+  padding-bottom: 1rem;
+}
+
+.card--container-buttom {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  flex: 100%;
+
+  background-color: rgb(255, 229, 246);
+  border-bottom-right-radius: 1rem;
+
+  height: 7rem;
+  padding: 0.8rem;
+}
+
+.price {
+  font-size: 2em;
+}
+
+.card--container-buttom .left .small {
+  font-size: 0.8rem;
+}
+
+.price-note {
+  font-size: 0.6rem;
+}
+
+/* .card--container-buttom .right {
+  padding-top: 1rem;
+} */
+
+.card--container-buttom button {
+ border-style: none;
+ border-radius: 0.5rem;
+
+ margin-top: 0.5rem;
+ padding: 0.4rem;
+ padding-left: 1rem;
+ padding-right: 1rem;
+
+ background-color: rgb(222, 121, 247);
+}
+
+.card--container-buttom a {
+  text-decoration: none;
+  color: aliceblue;
+  font-size: 0.8em;
+}
+
+.card--container-buttom button:hover {
+  color: rgb(124, 82, 31); /* Does not work */
+  background-color: rgb(232, 60, 114);
+}
+
+
+
+
+
+
